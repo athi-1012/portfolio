@@ -1,0 +1,209 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  scroll-behavior: smooth; 
+  background-color: rgba(0, 0, 0, 0.5);
+  
+  
+}
+
+nav {
+  text-align: center;
+  background-color: #000000;
+  padding: 30px;
+  font-weight: bold;
+  backdrop-filter: blur(10px); 
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  color: rgb(255, 208, 208);
+ 
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 208, 208);
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 7px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #ffc0d4;
+  color: #000000;
+}
+
+section {
+  text-align: center;
+  margin: 0px;
+  color: rgb(255, 255, 255);
+}
+
+h3{
+  color: #000000;
+}
+
+p {
+  color: #ffffff;
+  line-height: -10;
+
+}
+
+.line1 {
+  font-family:Luminari, serif;
+  line-height: 1.2;
+  font-size: 80px;
+}
+
+.line2 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 1;
+  font-size: 40px;
+}
+.line3{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 1;
+  font-size: 40px;
+}
+#home{
+  background-image: url("https://wallpaperaccess.com/full/5652030.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0, 0.4); 
+  
+ 
+}
+#about{
+  background-image: url("https://images.pexels.com/photos/10526919/pexels-photo-10526919.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0, 0.4); 
+
+}
+#education{
+  background-image: url("https://wallpaperaccess.com/full/5652030.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-color: rgba(34, 33, 33, 0.385);
+}
+#skills{
+  background-image: url("https://images.pexels.com/photos/10526919/pexels-photo-10526919.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  
+}
+#contact{
+  background-color: #000000;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  
+}
+
+.custom-button {
+  display: inline-block;
+  padding: 10px 30px;
+  
+  text-decoration: none;
+  border: none;
+  border-radius: 15px;
+  font-size: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: rgb(255, 160, 219); 
+  color: #000000;
+}
+
+
+.custom-button:hover {
+  background-color: #70003c; 
+  color: rgb(255, 255, 255);
+  
+}
+#div1 {
+  background-color: #ffdada; 
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 50px 150px;
+  border-radius: 50px;
+  border: 5px solid #000000;  
+}
+
+
+#div2 {
+  background-color: #ffdada; 
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 50px 150px;
+  border-radius: 50px;
+  border: 5px solid #000000; 
+}
+
+
+#div3 {
+  background-color: #ffdada; 
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 50px 150px;
+  border-radius: 50px;
+  border: 5px solid #000000; 
+}
+.skill-progress {
+  background-color: #727272;
+  border-radius: 15px;
+  height: 20px;
+  width: 1410px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 90%; 
+  background-color: #3498db; 
+  border-radius: 5px;
+}
+form {
+  background-color: #000000;
+  padding: 20px;
+  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input, textarea {
+  width: 75%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #6e6e6e;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 50px;
+}
+button{
+  background-color: #ffadbb;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20PX;
+}
+h2{
+  font-size: 40px;
+}
